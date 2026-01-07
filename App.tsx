@@ -2,7 +2,7 @@
 import React, { useState, useRef } from 'react';
 import { StoryboardData } from './types';
 import { developStoryConcept, generateStoryboardFromText, generatePageImage } from './geminiService';
-import CharacterChip from './components/CharacterChip';
+import { CharacterChip } from './components/CharacterChip';
 
 
 type AppStep = 'input' | 'development' | 'storyboard';
